@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(72, 72, 235),rgb(120, 120, 217));
+}
+
+.main{
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+.main h2{
+   color:white;
+   font-size: 30px;
+}
+
+.main h1{
+    color:yellow;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    width: 100%;
+    max-width: 400px;
+    height:70px;
+    background-color: rgb(181, 166, 225);
+    
+    border-radius: 10px;
+    padding:20px 20px;
+}
+
+.input-container input{
+    width: 100%;
+    max-width: 250px;
+    height:30px;
+    border: 0;
+    outline:0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size:15px;
+    background-color: white;
+}
+
+.input-container button{
+    width: 100%;
+    max-width: 80px;
+    height:30px;
+    border: 0;
+    outline:0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size:15px;
+    margin-left:20px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.age{
+    color: white;
+    margin-top:20px;
+}
+
+span {
+    color:yellow;
+}
